@@ -1,8 +1,8 @@
 #language: pt
 
-Funcionalidade: Logar no Twitter com sucesso
+Funcionalidade: Logar no Facebook
 
-Cenario: Login com sucesso
-Dado que o usuario preencheu os campos
-Quando ele clicar no botão CONECTE-SE
-Entao verá a sua timeline
+Cenario: Login com sucesso 
+Dado que o usuario queira se logar 
+Quando ele digitar as credencias validas
+Entao deve acessar o site com sucesso

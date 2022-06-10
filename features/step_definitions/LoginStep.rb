@@ -1,12 +1,12 @@
-Dado('que o usuario preencheu os campos') do
+Dado('que o usuario queira se logar') do
   visit ''
   sleep 5
 end
 
-Quando('ele clicar no botão CONECTE-SE') do
-  
+Quando('ele digitar as credencias validas') do
+
 end
 
-Entao('verá a sua timeline') do
+Entao('deve acessar a sua timeline') do
 
 end
