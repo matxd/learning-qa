@@ -1,6 +1,6 @@
 #language: pt
 
-Funcionalidade: Logar no Facebook
+Funcionalidade: Logar no Linkedin
 
 Cenario: Login com sucesso 
 Dado que o usuario queira se logar 
