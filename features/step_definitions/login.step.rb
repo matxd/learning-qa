@@ -1,13 +1,11 @@
 Dado('que o usuario queira se logar') do
-  visit ''
+  login.load # Carregamento da pagina
 end
 
 Quando('ele digitar as credencias validas') do
-  @testing = LoginPage.new # Instanciando classe
-  @testing.userLogin # Executando método da classe
+  login.userLogin
 end
 
 Entao('deve acessar o site com sucesso') do
-  @home = HomePage.new
-  @home.pageAfterLogin
+  home.pageAfterLogin
 end
